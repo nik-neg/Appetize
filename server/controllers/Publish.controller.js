@@ -81,7 +81,7 @@ module.exports.removeDish = async (req, res) => {
   }
 };
 
-module.exports.checkDishesInRadius = async (req, res) => { // TODO: refactor?
+module.exports.checkDishesInRadius = async (req, res) => {
   // hint: detailed error handling for integration test
   const {
     id, radius, cookedOrdered, pageNumber,
